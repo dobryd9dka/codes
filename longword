@@ -1,4 +1,4 @@
-# попробуй или совсем без перноса или так
+# попробуй или совсем без переноса, или так
 def longest_words(self):
     return sorted(set([j[1] for j in self.text if j[0] == 
                        sorted([i[0] for i in self.text])[-1]]))
