@@ -1,3 +1,10 @@
+# В класс Board
+def get_piece(self, row, col):
+        if correct_coords(row, col):
+            return self.field[row][col]
+        else:
+            return None
+
 class Queen:
     '''Класс ферзя. Пока что заглушка, которая может ходить в любую клетку.'''
 
