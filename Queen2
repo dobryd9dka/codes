@@ -1,9 +1,13 @@
 # В класс Board
 def get_piece(self, row, col):
-        if correct_coords(row, col):
-            return self.field[row][col]
-        else:
-            return None
+    if correct_coords(row, col):
+        return self.field[row][col]
+    else:
+        return None
+
+def can_attack(self, board, row, col, row1, col1)
+    return self.can_move(board, row, col, row1, col1)
+
 
 class Queen:
     '''Класс ферзя. Пока что заглушка, которая может ходить в любую клетку.'''
